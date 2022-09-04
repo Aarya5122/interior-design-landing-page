@@ -1,0 +1,171 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+    color: #ffffff;
+}
+
+.flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex-column{
+    flex-direction: column;
+}
+
+.flex-justify-space-around{
+    justify-content: space-around;
+}
+
+.flex-justify-space-between{
+    justify-content: space-between;
+}
+
+.flex-justify-end{
+    justify-content: end;
+}
+
+
+.flex-align-start{
+    align-items: flex-start;
+}
+
+.flex-gap{
+    gap: 2vw;
+}
+
+header{
+    padding: 7vh 5vw;
+}
+
+.background{
+    width: 98.9vw;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.logo-container{
+    width: 10vw;
+    padding: 2vh 0vw;
+}
+
+nav{
+    border-bottom: 3px solid #ffffff;
+    height: 13vh;
+}
+
+.list{
+    width: 45vw;
+    margin-top: 2vh;
+}
+
+.list-item{
+    list-style: none;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.contact-container{
+    width: 18vw;
+    height: 8vh;   
+    font-size: 20px;
+    font-weight: 500;
+    
+}
+
+.call{
+    width: 4vw;
+}
+
+.left-container{
+    width: 50vw;
+    height: 60vh;
+    margin-left: 10vw;
+    margin-top: 12vh;
+}
+
+.heading{
+    font-size: 80px;
+}
+
+.button{
+    padding: 4vh 5vw;
+    border-radius: 42px;
+    border: 3px solid #ffffff;
+    background-color: transparent;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.float{
+    background: #ffffff30;
+    position: absolute;
+    height: 24vh;
+    width: 21vw;
+}
+
+.float-one{
+    top: 40vh;
+    right: 8vw;
+}
+
+.float-two{
+    top: 90vh;
+    right: 28vw;
+}
+
+.content{
+    padding: 3vh 2vw;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.text{
+    margin-top: 2vh;
+}
+
+.icons{
+    width: 7vw;
+}
+
+.round{
+    height: 3vh;
+    width: 1.5vw;
+    background: #ffffff;
+    border-radius: 50%;
+    position: absolute; 
+}
+
+.line-one{
+    width: 1px;
+    height: 12vh;
+    background: #ffffff;
+    position: absolute;
+    top: 64vh;
+    right: 14vw;
+}
+
+
+.line-two{
+    height: 1px;
+    width: 6vw;
+    background: #ffffff;
+    position: absolute;
+    top: 100vh;
+    right: 22vw;    
+}
+
+.round-one{
+    top: 76.1vh;
+    right: 13.25vw;
+}
+
+.round-two{
+    top: 98.5vh;
+    right: 20.5vw;
+}
